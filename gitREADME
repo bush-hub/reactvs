@@ -1,0 +1,47 @@
+파일,폴더 추가
+git add *
+
+로컬저장소에 커밋
+git commit -m "new file"
+
+추가되었는지 확인
+git status
+
+로컬 저장소에서 원격 저장소로 밀기
+git push origin master
+git push origin *
+
+브랜치 목록 확인
+git branch
+
+브랜치 만들기
+git branch *
+
+지점 이동
+git checkout *
+
+브랜치 만들고 바로 이동
+git checkout -b *
+
+브랜치 병합 (git checkout master 혹은 다른곳으로 이동후)
+git merge *
+(그 후 git push origin master 혹은 *)
+
+브랜치 삭제
+git branch -d *
+
+커밋 히스토리 탐색(-n 10 은 10줄 검색)
+git log
+
+파일 내용 검색
+git grep ""
+
+원격 저장소에서 로컬 저장소로 다운로드
+git clone [url]
+ex) git clone https://github.com/bush-hub/react
+
+커밋 취소
+git reset -soft HEAD ^
+
+(* 에는 원하는 이름을 사용)
+
