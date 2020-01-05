@@ -6,3 +6,6 @@ https://medium.com/@trustyoo86/react-typescript-webpack4-2-script-%EC%84%A4%EC%A
 https://caesiumy.github.io/2019/04/02/vscode-recommended-extensions/
 https://velopert.com/2237
 https://www.vobour.com/vscode-%EC%B6%94%EC%B2%9C-%EC%9D%B5%EC%8A%A4%ED%85%90%EC%85%98%EA%B3%BC-%EC%84%B8%ED%8C%85-vscode-recommended-e
+
+typescript 기초
+https://velopert.com/3595
