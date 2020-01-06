@@ -20,9 +20,11 @@ module.exports = {
   output: {
     filename: '[name].[chunkhash].js',
     chunkFilename: '[name].[chunkhash].chunk.js',
+    path: __dirname + "/dist"
   },
+  devtool: "source-map",
   resolve: {
-    extensions: ['.js', '.ts', '.tsx'],
+    extensions: ['.js', '.ts', '.tsx', '.json'],
     alias: {
       'components': path.resolve(__dirname, '..', 'src', 'components'),
       'containers': path.resolve(__dirname, '..', 'src', 'containers'),
@@ -40,6 +42,15 @@ module.exports = {
           },
         ],
       },
+      {
+        enforce: "pre",
+        test: /\.js$/,
+        use: [
+          {
+            loader: "source-map-loader"
+          }
+        ]
+      }
     ],
   },
   // plugins
@@ -48,5 +59,9 @@ module.exports = {
 			template: './src/index.html',
 			filename: './index.html',
 		}),
-	]
+  ],
+  externals: {
+    "react": "React",
+    "react-dom": "ReactDOM"
+  }
 };
