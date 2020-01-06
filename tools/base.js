@@ -18,9 +18,8 @@ module.exports = {
     },
   },
   output: {
-    filename: '[name].[chunkhash].js',
-    chunkFilename: '[name].[chunkhash].chunk.js',
-    path: __dirname + "/dist"
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, '..', 'dist')
   },
   devtool: "source-map",
   resolve: {
