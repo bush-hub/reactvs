@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   entry: {
     'vendor': ['react', 'react-dom'],
-    'app': path.resolve(__dirname, '..', 'src', 'App.tsx'),
+    'index': path.resolve(__dirname, '..', 'src', 'index.tsx')
   },
   optimization: {
     splitChunks: {

@@ -1,11 +1,15 @@
 'use strict'
 
-import * as React from 'react'
-import * as ReactDOM from 'react-dom'
+import React, { Component } from 'react'
 
-ReactDOM.render(
-	<div>
-		Hello world!
-	</div>,
-	document.getElementById('root')
-)
+class App extends Component {
+	render() {
+		return (
+			<div>
+				<h1>hi, typescript!</h1>
+			</div>
+		)
+	}
+}
+
+export default App

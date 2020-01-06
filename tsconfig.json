@@ -15,7 +15,7 @@
       // produce a source map
       "sourceMap": true,
       "baseUrl": ".",
-      "outDir": "dist",
+      "outDir": "./dist/",
       "paths": {
         "components/*": ["./src/components/*"],
         "containers/*": ["./src/containers/*"],

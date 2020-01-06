@@ -18,7 +18,12 @@ Material Theme
 npm Intellisense
 Path Intellisense
 SCSS Everywhere
+TabOut
 vscode-icons
 
+typescript 설정
+https://ipex.tistory.com/entry/TypeScript-TS-환경-설정-Visual-Studio-Code-TypeScript-Configuration-in-Visual-Studio-Code
 typescript 기초
-https://velopert.com/3595
+https://velog.io/@velopert/using-react-with-typescript
+typescript gitbook
+https://typescript-kr.github.io/pages/tutorials/React%20&%20Webpack.html
